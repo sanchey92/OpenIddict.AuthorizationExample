@@ -1,0 +1,8 @@
+@page
+@using AuthorizationServer
+@model AuthorizationServer.Pages.Consent
+
+<form method="post">
+    <input type="submit" name="grant" value="@Constants.GrantAccessValue">
+    <input type="submit" name="grant" value="@Constants.DenyAccessValue"/>
+</form>
